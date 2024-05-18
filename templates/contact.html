@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block main_content %}
+    <main class="contact-main">
+            <h1 class="contact-header">
+                <span style="color: #FFF1E2">Contact</span> me
+            </h1>
+            <div>
+                <a href="https://www.linkedin.com/in/ilia-raev-584295274/" class="linkedin">LinkedIn</a>
+                <a href="https://github.com/IliyaSR" class="github">GitHub</a>
+            </div>
+            <i class="fa-regular fa-envelope"></i>
+        <form method="post" action="{% url 'contact-page' %}">
+            {% csrf_token %}
+            <div class="container" id="contact-container">
+                {{ form }}
+            </div>
+            <button class="talk-button">
+                Let's talk
+            </button>
+        </form>
+    </main>
+{% endblock %}

@@ -1,0 +1,53 @@
+#menu{
+    color: #FFF1E2;
+}
+
+.projects-main{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.projects-main-header{
+    color: #B76E2D;
+    font-size: 47px;
+    margin-bottom: 40px;
+}
+
+.projects-title{
+    color: #FFF1E2;
+}
+
+.projects-explanation{
+    margin: 20px 0;
+    color: #9F9689;
+}
+
+.projects-used-technologies{
+    color: #FFF1E2;
+    margin-bottom: 20px;
+}
+
+.source-code-container{
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.source-code-container a{
+    padding-right: 10px;
+    color: #B76E2D;
+    text-decoration: none;
+}
+
+.source-code-container i{
+    color: #B76E2D;
+}
+
+#mySwiper{
+    margin-bottom: 100px;
+}
+
+.carousel{
+    margin-bottom: 40px;
+}

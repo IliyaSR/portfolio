@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block main_content %}
+    <main class="home-main">
+        <div class="container" id="elements">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3" id="first-column">
+                    <div class="name-container">
+                        <h1 class="name">Ilia Raev<span class="fullstop-name">.</span></h1>
+                    </div>
+                    <div class="line-container">
+                        <hr class="line">
+                    </div>
+                    <p class="web-profiles"><a href="https://www.linkedin.com/in/ilia-raev-584295274/">LinkedIn</a> | <a
+                            href="https://github.com/IliyaSR">Github</a></p>
+                    <a href="{% url 'contact-page' %}" class="contact-me-button">CONTACT ME</a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6" id="image-container">
+                    <img src="/staticfiles/images/others/11.1.png" alt="" class="image img-fluid">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-xxl-3" id="introduction">
+                    <h4>INTRODUCTION</h4>
+                    <h3>Full Stack Web Developer</h3>
+                    <p id="part-text">
+                        I am 21 years old and reside in Plovdiv, Bulgaria. My strengths
+                        lie in Python, Django, HTML, CSS, PostgreSQL and JavaScript.
+                    </p>
+                    <p id="all-text" class="none">
+                        I am 21 years old and reside in Plovdiv, Bulgaria. My strengths
+                        lie in Python, Django, HTML, CSS, PostgreSQL and JavaScript. My
+                        journey began when I was accepted into the Professional High
+                        School of Electrical Engineering and Electronics in Plovdiv,
+                        Bulgaria. Subsequently, I embarked on learning programming
+                        languages at SoftUni and undertaking various projects. Thanks
+                        to my experience working at Speedy, I have developed excellent
+                        teamwork skills.I have been practicing judo for four years, and it
+                        has helped me to persevere, work hard for what I want, and
+                        never give up.
+                    </p>
+                    <div id="learn-button" onclick="onClick()">
+                        <p class="learn-button">Learn more</p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+{% endblock %}

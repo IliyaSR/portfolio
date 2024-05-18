@@ -1,0 +1,44 @@
+.my-skills-header{
+    color: #B76E2D;
+    font-size: 47px;
+    margin-bottom: 100px;
+}
+
+.my-skills-main{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.base-skills{
+    color: #FFF1E2;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills-container{
+    margin-bottom: 60px;
+}
+
+.education{
+    color: #B76E2D;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills-images{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.fa-brands{
+    color: #B76E2D;
+    font-size: 40px;
+}
+
+
+.education-text{
+    color: #FFF1E2;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
