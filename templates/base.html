@@ -7,16 +7,16 @@
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="/staticfiles/css/styles.css">
+    <link rel="stylesheet" href="/staticfiles/css/styles.css" >
     <title>Document</title>
 </head>
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-            <h2 class="navbar-brand mb-0" id="logo">
+            <a href="{% url 'home-page' %}" class="navbar-brand mb-0" id="logo">
                 IR<span class="fullstop-logo">.</span>
-            </h2>
+            </a>
             <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto" id="nav-elements">
                     {% if underline_home %}
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a href="{% url 'home-page' %}" class="nav-link mx-5"
                                style="color: #B76E2D">Home</a>
                         </li>
@@ -65,7 +65,7 @@
                     {% endif %}
                     <li class="nav-item">
                         <button class="nav-link mx-5" id="download-cv-button"
-                                onclick="window.open('/staticfiles/file/CV-Resume-Ilia-Raev.pdf')">My CV
+                                onclick="window.open('/staticfiles/file/ilia-raev-CV.pdf')">My CV
                         </button>
                     </li>
                 </ul>
